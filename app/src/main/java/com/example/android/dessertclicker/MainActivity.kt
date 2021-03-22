@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
     )
     private var currentDessert = allDesserts[0]
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Timber.i("onCreate called")
